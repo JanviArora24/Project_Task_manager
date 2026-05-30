@@ -19,6 +19,27 @@ A full-stack Task Management application designed to streamline daily productivi
 
 🔗 **Demo:** https://drive.google.com/drive/folders/1WHZB8tXNvTZLJTMqBTDhKMzOWMEqRitp?usp=sharing
 
+## 📂 Project Structure
+```text
+Project_Task_manager/
+├── backend/
+│   ├── middlewares/
+│   │   └── authMiddleware.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── projects.js
+│   │   └── tasks.js
+│   ├── db.js
+│   ├── server.js
+│   └── package.json
+└── frontend/
+    ├── assets/
+    ├── scripts/
+    ├── src/
+    ├── app.json
+    ├── package.json
+    └── tsconfig.json
+```
 ## 📋 Installation & Setup
 
 ### 1. Prerequisites
