@@ -13,7 +13,11 @@ A full-stack Task Management application designed to streamline daily productivi
 * **Backend:** Node.js, Express.js.
 * **Database:** Supabase (PostgreSQL).
 * **Authentication:** JWT-based sessions with OTP verification.
-* **Deployment:** Backend hosted on Render.
+* **Deployment:** Backend hosted on Render
+
+## 🎥 Demo Video
+
+🔗 **Demo:** https://drive.google.com/drive/folders/1WHZB8tXNvTZLJTMqBTDhKMzOWMEqRitp?usp=sharing
 
 ## 📋 Installation & Setup
 
@@ -53,22 +57,5 @@ cd frontend
 npx expo start
 ```
 
-##🔑 Authentication Flow (OTP)
-* **Request:** The user enters their email to request an OTP via /auth/send-otp.
-
-* **Verification:** The user submits the OTP to /auth/verify-otp.
-
-* **Tokenization:** Upon successful verification, the server issues a JWT token for authorized access to project and task routes.
-
-##🌐 Deployment Status
-* **Backend:** Hosted on Render.
-
-* **Database:** Supabase PostgreSQL instance.
-
-Note: Due to network security policies between Render (free tier) and external databases, if connection timeouts occur, please refer to the demo video provided for the functional demonstration of the application.
-
-##📝 Demo
-(Insert your Demo Video link here)
-
-##👤 Author
-Developed by Janvi Arora
+## 👤 Author
+Developed by Janvi
